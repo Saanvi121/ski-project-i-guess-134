@@ -42,7 +42,7 @@ function draw()
     for(i=0; i<objects.length;i++)
     {
       r = random(255)
-      g = rondom(255)
+      g = random(255)
       b = random(255)
       fill(r,g,b)
       confi = floor(objects[i].confidence * 100)
